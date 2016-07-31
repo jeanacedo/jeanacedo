@@ -4,7 +4,11 @@ body {
 }
 
 .home{
-	background-image: url("/assets/img/bg.png");
+	background-image: url("/assets/img/bg-home.png");
+}
+
+.background{
+	background-image: url("/assets/img/bg-site.png");
 }
 
 a:link, a:active, a:visited {
@@ -191,4 +195,14 @@ img {
 
 .centerfooter {
 	padding-top: 9px;
+}
+
+.gallery-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.gallery-image {
+	padding: 10px;
 }
