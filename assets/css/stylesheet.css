@@ -3,12 +3,11 @@ body {
 	color: #ffffff;
 }
 
-.home{
-	background-image: url("/assets/img/bg-home.png");
-}
-
 .background{
 	background-image: url("/assets/img/bg-site.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 a:link, a:active, a:visited {
@@ -20,6 +19,10 @@ html, body {
 	height:100%;
 }
 
+section {
+	padding-bottom: 60px;
+}
+	
 /* grid 960 px */
 
 .linha {
@@ -205,4 +208,17 @@ img {
 
 .gallery-image {
 	padding: 10px;
+}
+
+.video {
+	position: absolute;
+}
+
+.video:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	background: url(../img/pattern.png) repeat;
 }
